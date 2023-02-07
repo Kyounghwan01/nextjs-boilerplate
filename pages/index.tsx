@@ -15,6 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <button type="button" className="btn btn-primary">
+          Primary
+        </button>
+        <button type="button" className="btn btn-dark">
+          Dark
+        </button>
+
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
